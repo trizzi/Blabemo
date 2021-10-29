@@ -294,6 +294,19 @@ body {
 	border: 0;
 }
 
+.btn-nav {
+	background-color: #fff;
+	color: #ff6634;
+	border-radius: 5px;
+	border: 1px solid #ff6634;
+	padding: 8px 12px;
+}
+
+.btn-nav:hover {
+	background-color: #ff6634;
+	color: #fff;
+}
+
 /* Input End.... */
 
 .img-25 {
