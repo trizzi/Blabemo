@@ -469,6 +469,31 @@ body {
 	font-size: 12px;
 }
 
+.single-review-carousel .owl-stage-outer {
+	overflow: hidden;
+}
+
+.single-review-carousel .owl-dots {
+	margin-top: 5px;
+	text-align: center;
+}
+
+.single-review-carousel .owl-dot {
+	display: inline-block;
+	margin: 0 5px;
+	width: 12px !important;
+	height: 12px !important;
+	border-radius: 50%;
+	border: 0;
+	padding: 0 !important;
+	background-color: #ddd;
+	cursor: pointer;
+}
+
+.single-review-carousel .owl-dot.active {
+	background-color: #b8a07e;
+}
+
 /* /-------- start home-calltoaction Area -------------/ */
 .home-calltoaction-area {
 	background-color: #f8f8f8;
