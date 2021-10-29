@@ -356,6 +356,18 @@ body {
 	font-size: 12px;
 }
 
+@media (max-width: 736px) {
+	.img-15 {
+		display: none;
+	}
+	.img-25 {
+		display: none;
+	}
+	.showcase-review {
+		display: none;
+	}
+}
+
 /* review area */
 .reviews-area {
 	padding: 120px 0;
