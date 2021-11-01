@@ -1,34 +1,47 @@
-var arr = [
-	{
-		id: 1,
-		image: './img/Ellipse 1.png',
-		// comment:
-	},
-	{
-		id: 2,
-		image: './img/Ellipse 3.png',
-	},
+const arr = [
 	{
 		id: 1,
 		image: './img/hero.png',
+		comment: '',
+	},
+	{
+		id: 2,
+		image: './img/hero-1.png',
+		comment: '',
 	},
 ];
 
-console.log('hello', arr);
-var i = 0;
+let i = 0;
 
-function slide() {
+const imageSlide = () => {
 	document.getElementById('change-img').src = arr[i].image;
 	i++;
 	if (i == arr.length) {
 		i = 0;
 	}
-	console.log('hello 1', arr);
+
 	setTimeout(function () {
-		slide();
+		imageSlide();
 	}, 3000);
-}
+};
 
 setTimeout(function () {
-	slide();
+	imageSlide();
 }, 3000);
+
+// const commentSlide = () => {
+// 	document.getElementById('single-review').src =
+// 		arr[i].comment;
+// 	i++;
+// 	if (i == arr.length) {
+// 		i = 0;
+// 	}
+// 	console.log('hello 3', arr);
+// 	setTimeout(function () {
+// 		commentSlide();
+// 	}, 3000);
+// };
+
+// setTimeout(function () {
+// 	commentSlide();
+// }, 3000);
